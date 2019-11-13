@@ -1,0 +1,46 @@
+App\Entity\Session:
+  session_0:
+    title: Deezer Catalogue
+    author: Romain COTTARD et Jean PASDELOUP
+    summary: aperçu de l’architecture et focus sur les daemons parallélisés...
+    datetime: '<(new DateTime("27-10-2019 09:15"))>'
+  session_1:
+    title: 100% Asynchrone - 0% Callback en PHP
+    author: Joël WURTZ
+    summary: PHP et Asynchrone n'ont jamais fais bon ménage. Pourtant depuis plusieurs années de nombreuses librairies s'y sont essayé mais leurs API ont toujours été rempli de callbacks et la complexité associée. Nous verrons comment nous affranchir des callback et transformer nos scripts en asynchrone pour obtenir des meilleurs performances.
+    datetime: '<(new DateTime("27-10-2019 10:00"))>'
+  session_2:
+    title: Les quatres vies de l'analyse statique
+    author: Damien SEGUY
+    summary: L'analyse statique n'est plus à présenter,elle consiste à analyser du code source sans l'exécuter. Elle a été conçue à l'origine pour identifier les erreurs classiques dans le code, afin de les corriger aussi tôt que possible dans la cycle de vie de développement d'une application. Avec le nombre croissant de technologies dans une même application, l'analyse statique joue un rôle croissant pour doper la qualité du code et la montée en compétence des équipes techniques. Elle propose une aide adaptée et rapide, ainsi qu'un système de diagnostic puissant. Un moteur d'audit représente des années d'expérience concentrée dans un seul outil pour une fraction du coût de la revue par un consultant, il permet d'obtenir les meilleures recommandations en termes de qualité de code, de sécurité ou encore de performances.
+    datetime: '<(new DateTime("27-10-2019 11:10"))>'
+  session_3:
+    title: Écrire du bon code avec des tests automatisés est rentable
+    author: Sebastian Bergmann et Stefan Priebsch
+    summary: orsque des modifications majeures de votre logiciel deviennent nécessaires. Dans cet atelier, nous vous présenterons le développement piloté par les tests tel qu'il était censé être. Vous comprendrez non seulement comment TDD remet fondamentalement en question votre conception du logiciel, mais expérimentez également la joie du cycle rouge-vert-refactor. Rejoignez Sebastian et Stefan dans un voyage qui pourrait changer à jamais votre façon de penser le code. Et des tests, d'ailleurs.
+    datetime: '<(new DateTime("27-10-2019 11:55"))>'
+  session_4:
+    title: Pour améliorer votre base de code
+    author: Damien Seguy
+    summary: Vous exécutez un audit. Maintenant, avec autant de diagnostics, la situation semble être accablante. Si vous n'avez qu'un million de lignes de code, des milliers d'erreurs peuvent être affichées, dans différents ordres. Et avec cela, le marché ne laisse pas le temps de réduire la dette technique avant la prochaine étape nous le ferons lorsque la pression diminuera, non? FAUX! La qualité du code commence par un examen quotidien. Apprenez à naviguer dans les résultats des audits de code qui détectent plus de problèmes que vous le souhaitez. Au cours de cet atelier, nous vérifierons les pièges classiques de PHP, les erreurs d’architecture, les vulnérabilités de sécurité et les bogues logiques. Nous verrons comment détecter ces bugs, comment ils se produisent et comment préparer (ou non) un correctif. À la fin, vous pourrez configurer votre propre référence de codage, celle qui reflète votre style de codage dans vos projets.
+    datetime: '<(new DateTime("27-10-2019 14:00"))>'
+  session_5:
+    title: DDD (Domain-Driven Design)
+    author: Arne Blankerts
+    summary: CQRS et sourcing d’événements grands mots qui nécessitent évidemment l’application d’une pile technologique aussi volumineuse - avec des frameworks à la pointe de la technologie, de nombreux outils et une infrastructure complexe pour tout gérer. Ou pas? Dans cet atelier, nous allons créer une application Web solide et basée sur les événements. Nous ne compterons sur aucun framework ni aucune bibliothèque pour vraiment aller au fond des choses.
+    datetime: '<(new DateTime("27-10-2019 14:45"))>'
+  session_6:
+    title: PHPStan est à PHP ce que le compilateur est à Java
+    author: Ondřej Mirtes
+    summary: Le compilateur Java ne vous laissera pas exécuter un programme avec une erreur évidente comme accéder à une variable non définie ou appeler une méthode avec un nombre incorrect d'arguments. Mais PHP est très indulgent. C'est pourquoi vous découvrirez ces erreurs évidentes lorsque vous, ou les utilisateurs de votre application, exécutez la ligne de code contenant l'erreur. C'est là que PHPStan intervient - il analyse votre base de code entière et signale les erreurs, même dans des conditions imbriquées profondes. Il vous indiquera également quand un code est inaccessible car une condition ne peut jamais être vraie et des centaines d'autres types d'erreurs. Dans cet atelier, les participants apprendront comment installer, configurer et exécuter PHPStan, et recevront également des astuces pour écrire du code afin que PHPStan soit aussi puissant que possible. Ils pourront également écrire leurs propres règles et extensions PHPStan.
+    datetime: '<(new DateTime("27-10-2019 15:55"))>'
+  session_7:
+    title: PouchDB est une base de données JavaScript open source
+    author: Hans-Christian Otto
+    summary: Il est livré avec une API assez simple, il est léger et prend en charge l’interrogation des données à la fois dans MongoDB-way et en utilisant map reduction L’une des fonctionnalités les plus remarquables est peut-être la prise en charge du protocole de réplication CouchDB, qui vous permet de configurer des réplications multi-maîtres entre PouchDB dans le navigateur et CouchDB sur vos serveurs. Cette session vous donnera une introduction à PouchDB, CouchDB et aux contraintes des architectures que vous pouvez utiliser avec ces technologies.
+    datetime: '<(new DateTime("27-10-2019 16:40"))>'
+  session_8:
+    title: Need for Speed ​​- Optimisation des performances Web
+    author: Jecelyn Yeen
+    summary: Cette présentation vous guidera à travers les techniques clés de JavaScript, des images, des polices Web et des outils que vous pouvez utiliser pour optimiser les performances de votre site. 
+    datetime: '<(new DateTime("27-10-2019 17:05"))>'

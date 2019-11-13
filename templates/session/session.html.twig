@@ -1,0 +1,13 @@
+{# templates/session/session.html.twig #} 
+<div  class="jumbotron jumbotron-fluid rounded">
+        <div class="container">
+        <h1 class="h1"><a class="text-dark" href="{{ path('session_detail', {id: session.id}) }}">{{ session.title }} </a></h1>
+            <h1 class="h3">{{ session.author }}</h1>
+            <div class="row">
+                <p class="col-md-1"> {{ session.datetime|date('l') }}</p>
+                <p class="col-md-1"> {{ session.datetime|date('H:i') }}</p>
+                <p class="col-md-1"> {{ session.datetime|date('d M') }}</p>    
+            </div>
+            <p> {{ session.summary }} </p>
+        </div>
+</div>

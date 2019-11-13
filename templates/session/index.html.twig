@@ -1,0 +1,14 @@
+{# templete/session/index.html.twig #} 
+{% extends 'base.html.twig' %}
+
+{% block title %}Real Time{% endblock %} 
+{% block body %} 
+
+    <h1>Real Time</h1>
+    {% for session in sessions %}
+        <article id="session-{{ session.id }}">
+        {% include "session/session.html.twig" with {session: session} %} 
+        </article>
+    {% endfor %} 
+
+{% endblock %}

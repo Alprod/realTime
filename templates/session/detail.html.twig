@@ -1,0 +1,23 @@
+{# templete/session/detail.html.twig #} 
+{% extends 'base.html.twig' %}
+
+{% block title %}{{session.title}} | Real Time{% endblock %} 
+
+{% block body %} 
+
+<main>
+<a class="btn btn-light mt-3 mb-3" href="{{ path('session_index') }}"> Retour à la liste </a>
+    {% include "session/session.html.twig" with {session: session} %}
+</main>
+<article id="reactions">
+    <reactions session-id="{{ session.id }}"></reactions>
+</article>
+<article id="feedback">
+    <feedback session-id="{{ session.id }}"></feedback>
+</article>
+
+{% endblock %}
+{% block javascripts %}
+    {{ encore_entry_script_tags('js/feedback') }}
+    {{ encore_entry_script_tags('js/reaction') }}
+{% endblock %}

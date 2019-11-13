@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap";
+
+.vue{
+    background-color: #fcfcfc;
+    min-height: calc(100vh - 30px);
+}
+.foo{
+    margin: 0;
+}
